@@ -35,10 +35,10 @@ class Directory extends Component {
                 }
 
             ],
-        }
+        };
 
 
-    };
+    }
 
     render() {
         const directory = this.state.campsites.map(campsite => {
@@ -55,11 +55,14 @@ class Directory extends Component {
             <div className="container">
                 <div className="row">
                     {directory}
+                    
                 </div>
             </div>
         );
     }
 
 }
+
+
 export default Directory;
 
